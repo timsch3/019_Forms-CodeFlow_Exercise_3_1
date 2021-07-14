@@ -44,7 +44,7 @@ section {
     padding: 40px;
     border-radius: 10px 10px 0 0;
 }
-input {
+fieldset input {
     min-width: 100%;
     border: none;
     border-radius: 2px;
@@ -62,12 +62,11 @@ input {
     border-style: none;
 }
 #submit:hover {
-    box-shadow: 4px 4px #33333344;
+    box-shadow: 0 0 0 3px #ddd;
 }
 #submit:active {
-    transform: translate(4px, 4px);
-    box-shadow: 0 0 0 2px #33333344;
+    transform: scale(0.9);
 }
 #submit:not(:hover) {
-    box-shadow: none;
+    transform: scale(1);
 }
