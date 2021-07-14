@@ -14,6 +14,10 @@ main {
     border: 10px solid #5555ff11;
     border-radius: 10px;
 }
+h2 {
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
 form {
     padding: 0 30px;
     max-width: 95%;
@@ -62,11 +66,13 @@ fieldset input {
     border-style: none;
 }
 #submit:hover {
-    box-shadow: 0 0 0 3px #ddd;
+    box-shadow: 0 0 0 4px #ddd;
 }
 #submit:active {
     transform: scale(0.9);
+    box-shadow: 0 0 0 2px #ddd;
 }
 #submit:not(:hover) {
     transform: scale(1);
+    box-shadow: none;
 }
